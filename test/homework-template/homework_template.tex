@@ -1,0 +1,67 @@
+\documentclass[11pt]{article}
+\input{page}
+\usepackage{clrscode3e}
+\usepackage[parfill]{parskip}
+\usepackage{textcomp}
+\usepackage[T1]{fontenc}
+\usepackage{titling}
+
+% set title height
+\setlength{\droptitle}{-4em}
+
+% remove number from section
+\makeatletter
+\renewcommand{\@seccntformat}[1]{%
+  \ifcsname prefix@#1\endcsname
+    \csname prefix@#1\endcsname
+  \else
+    \csname the#1\endcsname\quad
+  \fi}
+\newcommand\prefix@section{}
+\makeatother
+
+% define how to make line breaks
+\def\separateline{\medskip\hrule\medskip}
+
+% define title
+\title{CS 31: Homework NUMBER HERE}
+\author{Thomas Monfre}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Problem 1-1}
+adsfasdfasdf
+
+\newpage
+
+\section{Problem 1-2}
+adsfasdfasdf
+
+\newpage
+
+\section{Problem 1-3}
+adsfasdfasdf
+
+\newpage
+
+\section{Problem 1-4}
+adsfasdfasdf
+
+\newpage
+
+\section{Problem 1-5}
+adsfasdfasdf
+
+\newpage
+
+\section{Problem 1-6}
+adsfasdfasdf
+
+ \newpage
+
+ \section{Problem 1-7}
+adsfasdfasdf
+
+\end{document}
