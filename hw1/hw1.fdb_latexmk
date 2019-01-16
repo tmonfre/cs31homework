@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1547522527 "hw1.tex" "hw1.pdf" "hw1" 1547522528
+["pdflatex"] 1547602352 "hw1.tex" "hw1.pdf" "hw1" 1547602352
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1480098666 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1480098696 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -96,10 +96,10 @@
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1523934516 4220280 10cab8fbd7c5a7c52aba9917e190d018 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
   "clrscode3e.sty" 1547146069 14701 6e560446162ef12e061f676ca6e49c94 ""
-  "hw1.aux" 1547522527 520 83297b2ed6434313e2afac77285efe06 ""
-  "hw1.tex" 1547522523 21322 fbccff4ce66a9474b58d10c29512abd4 ""
+  "hw1.aux" 1547602352 600 ac181fc52b250b305706dfc849d477eb ""
+  "hw1.tex" 1547602349 22582 83dfbe6ade214eb6d6edc8cb8a1a9108 ""
   "page.tex" 1547146014 490 3fd9a1f678fca422cac90de7467114db ""
   (generated)
-  "hw1.log"
   "hw1.aux"
+  "hw1.log"
   "hw1.pdf"

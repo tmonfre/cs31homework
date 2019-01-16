@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 JAN 2019 22:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  15 JAN 2019 20:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -733,108 +733,133 @@ Overfull \hbox (9.2653pt too wide) in paragraph at lines 108--108
 
 [2] [3]
 
-./hw1.tex:136: Package inputenc Error: Unicode character   (U+2004)
+./hw1.tex:139: Package inputenc Error: Unicode character   (U+2004)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.136 ...$\alpha$ is a fraction in the range $0 
+l.139 ...$\alpha$ is a fraction in the range $0 
                                                   < \alpha < 1$. Show ho...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./hw1.tex:136: Package inputenc Error: Unicode character   (U+2004)
+./hw1.tex:139: Package inputenc Error: Unicode character   (U+2004)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.136 ... a fraction in the range $0 < \alpha 
+l.139 ... a fraction in the range $0 < \alpha 
                                                   < 1$. Show how to genera...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./hw1.tex:136: Package inputenc Error: Unicode character   (U+2004)
+./hw1.tex:139: Package inputenc Error: Unicode character   (U+2004)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.136 ...raction in the range $0 < \alpha < 
+l.139 ...raction in the range $0 < \alpha < 
                                                   1$. Show how to generalize...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
 
-./hw1.tex:143: Package inputenc Error: Unicode character   (U+2004)
+./hw1.tex:146: Package inputenc Error: Unicode character   (U+2004)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.143 ...en a fraction $\alpha$ in the range $0 
+l.146 ...en a fraction $\alpha$ in the range $0 
                                                   < \alpha < 1$. We can ...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./hw1.tex:143: Package inputenc Error: Unicode character   (U+2004)
+./hw1.tex:146: Package inputenc Error: Unicode character   (U+2004)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.143 ...on $\alpha$ in the range $0 < \alpha 
+l.146 ...on $\alpha$ in the range $0 < \alpha 
                                                   < 1$. We can generalize ...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./hw1.tex:143: Package inputenc Error: Unicode character   (U+2004)
+./hw1.tex:146: Package inputenc Error: Unicode character   (U+2004)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.143 ...\alpha$ in the range $0 < \alpha < 
+l.146 ...\alpha$ in the range $0 < \alpha < 
                                                   1$. We can generalize the ...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
-[4]
-./hw1.tex:159: Missing { inserted.
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--164
+
+ []
+
+[4] [5]
+./hw1.tex:171: Missing { inserted.
 <to be read again> 
                    \mathop 
-l.159 ...ly $n \times n$ matrices in time $o(n^\lg
+l.171 ...ly $n \times n$ matrices in time $o(n^\lg
                                                   {7})$? What would the runn...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./hw1.tex:159: Missing } inserted.
+./hw1.tex:171: Missing } inserted.
 <inserted text> 
                 }
-l.159 ... \times n$ matrices in time $o(n^\lg{7})$
+l.171 ... \times n$ matrices in time $o(n^\lg{7})$
                                                   ? What would the running t...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -842,20 +867,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./hw1.tex:162: Missing { inserted.
+./hw1.tex:174: Missing { inserted.
 <to be read again> 
                    \mathop 
-l.162 ...e told this variant runs in time $o(n^\lg
+l.174 ...e told this variant runs in time $o(n^\lg
                                                   {7})$, let us use the mast...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./hw1.tex:162: Missing } inserted.
+./hw1.tex:174: Missing } inserted.
 <inserted text> 
                 }
-l.162 ...d this variant runs in time $o(n^\lg{7})$
+l.174 ...d this variant runs in time $o(n^\lg{7})$
                                                   , let us use the master me...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -863,20 +888,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./hw1.tex:162: Missing { inserted.
+./hw1.tex:174: Missing { inserted.
 <to be read again> 
                    \mathop 
-l.162 ... terms of $k$, then compare with $o(n^\lg
+l.174 ... terms of $k$, then compare with $o(n^\lg
                                                   {7})$ to solve for $k$. Us...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./hw1.tex:162: Missing } inserted.
+./hw1.tex:174: Missing } inserted.
 <inserted text> 
                 }
-l.162 ...s of $k$, then compare with $o(n^\lg{7})$
+l.174 ...s of $k$, then compare with $o(n^\lg{7})$
                                                    to solve for $k$. Using o...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -884,20 +909,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./hw1.tex:164: Missing { inserted.
+./hw1.tex:176: Missing { inserted.
 <to be read again> 
                    \mathop 
-l.164 ... n^2$. Therefore, we must compare $n^\log
+l.176 ... n^2$. Therefore, we must compare $n^\log
                                                   _3{k}$ with $n^2$.
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./hw1.tex:164: Missing } inserted.
+./hw1.tex:176: Missing } inserted.
 <inserted text> 
                 }
-l.164 ... Therefore, we must compare $n^\log_3{k}$
+l.176 ... Therefore, we must compare $n^\log_3{k}$
                                                    with $n^2$.
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -905,20 +930,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./hw1.tex:166: Missing { inserted.
+./hw1.tex:178: Missing { inserted.
 <to be read again> 
                    \mathop 
-l.166 ...n^2$ is polynomially smaller than $n^\log
+l.178 ...n^2$ is polynomially smaller than $n^\log
                                                   _3{k}$. This indicates cas...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./hw1.tex:166: Missing } inserted.
+./hw1.tex:178: Missing } inserted.
 <inserted text> 
                 }
-l.166 ...s polynomially smaller than $n^\log_3{k}$
+l.178 ...s polynomially smaller than $n^\log_3{k}$
                                                   . This indicates case 1 of...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -926,20 +951,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./hw1.tex:170: Missing { inserted.
+./hw1.tex:182: Missing { inserted.
 <to be read again> 
                    \mathop 
-l.170 ...to $n \times n$ matrices in time $o(n^\lg
+l.182 ...to $n \times n$ matrices in time $o(n^\lg
                                                   {7})$. Since we have compu...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./hw1.tex:170: Missing } inserted.
+./hw1.tex:182: Missing } inserted.
 <inserted text> 
                 }
-l.170 ... \times n$ matrices in time $o(n^\lg{7})$
+l.182 ... \times n$ matrices in time $o(n^\lg{7})$
                                                   . Since we have computed t...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -947,20 +972,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./hw1.tex:170: Missing { inserted.
+./hw1.tex:182: Missing { inserted.
 <to be read again> 
                    \mathop 
-l.170 ...me of this algorithm to be $\Theta(n^\log
+l.182 ...me of this algorithm to be $\Theta(n^\log
                                                   _3{k})$, we then know:
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./hw1.tex:170: Missing } inserted.
+./hw1.tex:182: Missing } inserted.
 <inserted text> 
                 }
-l.170 ...his algorithm to be $\Theta(n^\log_3{k})$
+l.182 ...his algorithm to be $\Theta(n^\log_3{k})$
                                                   , we then know:
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -969,96 +994,16 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--181
+Underfull \hbox (badness 10000) in paragraph at lines 190--193
 
  []
 
-[5]
-./hw1.tex:195: Missing { inserted.
-<to be read again> 
-                   \mathop 
-l.195 ... n^4$. Therefore, we must compare $n^\log
-                                                  _2{2}$ with $n^4$.
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-./hw1.tex:195: Missing } inserted.
-<inserted text> 
-                }
-l.195 ... Therefore, we must compare $n^\log_2{2}$
-                                                   with $n^4$.
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./hw1.tex:197: Missing { inserted.
-<to be read again> 
-                   \mathop 
-l.197 ... n^4$ is polynomially larger than $n^\log
-                                                  _2{2}$. This indicates cas...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-./hw1.tex:197: Missing } inserted.
-<inserted text> 
-                }
-l.197 ...is polynomially larger than $n^\log_2{2}$
-                                                  . This indicates case 3 of...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-./hw1.tex:199: LaTeX Error: \mathbf allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.199 Therefore, we have \mathbf{$\Theta(n^4)$}
-                                               .\\
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
-
- []
-
-./hw1.tex:205: Missing { inserted.
-<to be read again> 
-                   \mathop 
-l.205 ... = n$. Therefore, we must compare $n^\log
-                                                  _\frac{10}{7} {1}$ with $n$.
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-./hw1.tex:205: Missing } inserted.
-<inserted text> 
-                }
-l.205 ...we must compare $n^\log_\frac{10}{7} {1}$
-                                                   with $n$.
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+[6]
 ./hw1.tex:207: Missing { inserted.
 <to be read again> 
                    \mathop 
-l.207 ... = n$ is polynomially larger than $n^\log
-                                                  _\frac{10}{7} {1}$. This i...
+l.207 ... n^4$. Therefore, we must compare $n^\log
+                                                  _2{2}$ with $n^4$.
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
@@ -1067,7 +1012,28 @@ so that I will find a matching right brace soon.
 ./hw1.tex:207: Missing } inserted.
 <inserted text> 
                 }
-l.207 ...lly larger than $n^\log_\frac{10}{7} {1}$
+l.207 ... Therefore, we must compare $n^\log_2{2}$
+                                                   with $n^4$.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./hw1.tex:209: Missing { inserted.
+<to be read again> 
+                   \mathop 
+l.209 ... n^4$ is polynomially larger than $n^\log
+                                                  _2{2}$. This indicates cas...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./hw1.tex:209: Missing } inserted.
+<inserted text> 
+                }
+l.209 ...is polynomially larger than $n^\log_2{2}$
                                                   . This indicates case 3 of...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1076,48 +1042,27 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./hw1.tex:209: LaTeX Error: \mathbf allowed only in math mode.
+./hw1.tex:211: LaTeX Error: \mathbf allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 Therefore, we have \mathbf{$\Theta(n)$}
-                                             .\\
+l.211 Therefore, we have \mathbf{$\Theta(n^4)$}
+                                               .\\
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
-
-./hw1.tex:215: Missing { inserted.
-<to be read again> 
-                   \mathop 
-l.215 ... n^2$. Therefore, we must compare $n^\log
-                                                  _4{16}$ with $n^2$.
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-./hw1.tex:215: Missing } inserted.
-<inserted text> 
-                }
-l.215 ...Therefore, we must compare $n^\log_4{16}$
-                                                   with $n^2$.
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 ./hw1.tex:217: Missing { inserted.
 <to be read again> 
                    \mathop 
-l.217 ...^2$ is within a polylog factor of $n^\log
-                                                  _4{16}$, but is not smalle...
+l.217 ... = n$. Therefore, we must compare $n^\log
+                                                  _\frac{10}{7} {1}$ with $n$.
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
@@ -1126,66 +1071,28 @@ so that I will find a matching right brace soon.
 ./hw1.tex:217: Missing } inserted.
 <inserted text> 
                 }
-l.217 ...within a polylog factor of $n^\log_4{16}$
-                                                  , but is not smaller. This...
+l.217 ...we must compare $n^\log_\frac{10}{7} {1}$
+                                                   with $n$.
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-
-./hw1.tex:219: LaTeX Error: \mathbf allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.219 ...ore, we have \mathbf{$\Theta(n^2\lg{n})$}
-                                                  .\\
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
-
- []
-
-./hw1.tex:225: Missing { inserted.
+./hw1.tex:219: Missing { inserted.
 <to be read again> 
                    \mathop 
-l.225 ... n^2$. Therefore, we must compare $n^\log
-                                                  _3{7}$ with $n^2$.
+l.219 ... = n$ is polynomially larger than $n^\log
+                                                  _\frac{10}{7} {1}$. This i...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./hw1.tex:225: Missing } inserted.
+./hw1.tex:219: Missing } inserted.
 <inserted text> 
                 }
-l.225 ... Therefore, we must compare $n^\log_3{7}$
-                                                   with $n^2$.
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./hw1.tex:227: Missing { inserted.
-<to be read again> 
-                   \mathop 
-l.227 ... n^2$ is polynomially larger than $n^\log
-                                                  _3{7}$. This indicates cas...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-./hw1.tex:227: Missing } inserted.
-<inserted text> 
-                }
-l.227 ...is polynomially larger than $n^\log_3{7}$
+l.219 ...lly larger than $n^\log_\frac{10}{7} {1}$
                                                   . This indicates case 3 of...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1194,36 +1101,36 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./hw1.tex:229: LaTeX Error: \mathbf allowed only in math mode.
+./hw1.tex:221: LaTeX Error: \mathbf allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 Therefore, we have \mathbf{$\Theta(n^2)$}
-                                               .\\
+l.221 Therefore, we have \mathbf{$\Theta(n)$}
+                                             .\\
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
-./hw1.tex:235: Missing { inserted.
+./hw1.tex:227: Missing { inserted.
 <to be read again> 
                    \mathop 
-l.235 ... n^2$. Therefore, we must compare $n^\log
-                                                  _2{7}$ with $n^2$.
+l.227 ... n^2$. Therefore, we must compare $n^\log
+                                                  _4{16}$ with $n^2$.
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./hw1.tex:235: Missing } inserted.
+./hw1.tex:227: Missing } inserted.
 <inserted text> 
                 }
-l.235 ... Therefore, we must compare $n^\log_2{7}$
+l.227 ...Therefore, we must compare $n^\log_4{16}$
                                                    with $n^2$.
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1231,145 +1138,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[6]
-./hw1.tex:237: Missing { inserted.
+./hw1.tex:229: Missing { inserted.
 <to be read again> 
                    \mathop 
-l.237 ...n^2$ is polynomially smaller than $n^\log
-                                                  _2{7}$. This indicates cas...
+l.229 ...^2$ is within a polylog factor of $n^\log
+                                                  _4{16}$, but is not smalle...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./hw1.tex:237: Missing } inserted.
+./hw1.tex:229: Missing } inserted.
 <inserted text> 
                 }
-l.237 ...s polynomially smaller than $n^\log_2{7}$
-                                                  . This indicates case 1 of...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-./hw1.tex:239: LaTeX Error: \mathbf allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.239 ...Theta(n^\log_2{7})$ = \Theta(n^{\lg{7}})}
-                                                  .\\
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./hw1.tex:239: Missing { inserted.
-<to be read again> 
-                   \mathop 
-l.239 ...Theta(n^\log_2{7})$ = \Theta(n^{\lg{7}})}
-                                                  .\\
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-./hw1.tex:239: Missing } inserted.
-<inserted text> 
-                }
-l.239 ...Theta(n^\log_2{7})$ = \Theta(n^{\lg{7}})}
-                                                  .\\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./hw1.tex:239: Missing $ inserted.
-<inserted text> 
-                $
-l.239 ...Theta(n^\log_2{7})$ = \Theta(n^{\lg{7}})}
-                                                  .\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./hw1.tex:239: Extra }, or forgotten $.
-\select@group ...pandafter \non@alpherr \fi #1{#4}
-                                                  }
-l.239 ...Theta(n^\log_2{7})$ = \Theta(n^{\lg{7}})}
-                                                  .\\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./hw1.tex:239: Extra }, or forgotten $.
-\select@group ...andafter \non@alpherr \fi #1{#4}}
-                                                  
-l.239 ...Theta(n^\log_2{7})$ = \Theta(n^{\lg{7}})}
-                                                  .\\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./hw1.tex:240: Missing $ inserted.
-<inserted text> 
-                $
-l.240 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./hw1.tex:240: Missing } inserted.
-<inserted text> 
-                }
-l.240 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./hw1.tex:245: Missing { inserted.
-<to be read again> 
-                   \mathop 
-l.245 ...}{2}$. Therefore, we must compare $n^\log
-                                                  _4{2}$ with $n^\frac{1}{2}$.
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-./hw1.tex:245: Missing } inserted.
-<inserted text> 
-                }
-l.245 ... Therefore, we must compare $n^\log_4{2}$
-                                                   with $n^\frac{1}{2}$.
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./hw1.tex:247: Missing { inserted.
-<to be read again> 
-                   \mathop 
-l.247 ...2}$ is within a polylog factor of $n^\log
-                                                  _4{2}$, but is not smaller...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-./hw1.tex:247: Missing } inserted.
-<inserted text> 
-                }
-l.247 ... within a polylog factor of $n^\log_4{2}$
+l.229 ...within a polylog factor of $n^\log_4{16}$
                                                   , but is not smaller. This...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1378,77 +1160,96 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./hw1.tex:249: LaTeX Error: \mathbf allowed only in math mode.
+./hw1.tex:231: LaTeX Error: \mathbf allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 ...we have \mathbf{$\Theta(\sqrt{n}\lg{n})$}
+l.231 ...ore, we have \mathbf{$\Theta(n^2\lg{n})$}
                                                   .\\
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
-./hw1.tex:266: Missing } inserted.
+./hw1.tex:237: Missing { inserted.
+<to be read again> 
+                   \mathop 
+l.237 ... n^2$. Therefore, we must compare $n^\log
+                                                  _3{7}$ with $n^2$.
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./hw1.tex:237: Missing } inserted.
 <inserted text> 
                 }
-l.266 \end{split}
-                 
+l.237 ... Therefore, we must compare $n^\log_3{7}$
+                                                   with $n^2$.
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./hw1.tex:266: Missing { inserted.
-<inserted text> 
-                {
-l.266 \end{split}
-                 
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
+./hw1.tex:239: Missing { inserted.
+<to be read again> 
+                   \mathop 
+l.239 ... n^2$ is polynomially larger than $n^\log
+                                                  _3{7}$. This indicates cas...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
-
- []
-
-./hw1.tex:280: Missing } inserted.
+./hw1.tex:239: Missing } inserted.
 <inserted text> 
                 }
-l.280 \end{split}
-                 
+l.239 ...is polynomially larger than $n^\log_3{7}$
+                                                  . This indicates case 3 of...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./hw1.tex:280: Missing { inserted.
-<inserted text> 
-                {
-l.280 \end{split}
-                 
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
+
+./hw1.tex:241: LaTeX Error: \mathbf allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 Therefore, we have \mathbf{$\Theta(n^2)$}
+                                               .\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
-./hw1.tex:288: Missing } inserted.
+./hw1.tex:247: Missing { inserted.
+<to be read again> 
+                   \mathop 
+l.247 ... n^2$. Therefore, we must compare $n^\log
+                                                  _2{7}$ with $n^2$.
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./hw1.tex:247: Missing } inserted.
 <inserted text> 
                 }
-l.288 \end{enumerate}
-                     
+l.247 ... Therefore, we must compare $n^\log_2{7}$
+                                                   with $n^2$.
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1456,14 +1257,172 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+./hw1.tex:249: Missing { inserted.
+<to be read again> 
+                   \mathop 
+l.249 ...n^2$ is polynomially smaller than $n^\log
+                                                  _2{7}$. This indicates cas...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./hw1.tex:249: Missing } inserted.
+<inserted text> 
+                }
+l.249 ...s polynomially smaller than $n^\log_2{7}$
+                                                  . This indicates case 1 of...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./hw1.tex:251: LaTeX Error: \mathbf allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.251 ...Theta(n^\log_2{7})$ = \Theta(n^{\lg{7}})}
+                                                  .\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./hw1.tex:251: Missing { inserted.
+<to be read again> 
+                   \mathop 
+l.251 ...Theta(n^\log_2{7})$ = \Theta(n^{\lg{7}})}
+                                                  .\\
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./hw1.tex:251: Missing } inserted.
+<inserted text> 
+                }
+l.251 ...Theta(n^\log_2{7})$ = \Theta(n^{\lg{7}})}
+                                                  .\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./hw1.tex:251: Missing $ inserted.
+<inserted text> 
+                $
+l.251 ...Theta(n^\log_2{7})$ = \Theta(n^{\lg{7}})}
+                                                  .\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./hw1.tex:251: Extra }, or forgotten $.
+\select@group ...pandafter \non@alpherr \fi #1{#4}
+                                                  }
+l.251 ...Theta(n^\log_2{7})$ = \Theta(n^{\lg{7}})}
+                                                  .\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./hw1.tex:251: Extra }, or forgotten $.
+\select@group ...andafter \non@alpherr \fi #1{#4}}
+                                                  
+l.251 ...Theta(n^\log_2{7})$ = \Theta(n^{\lg{7}})}
+                                                  .\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./hw1.tex:252: Missing $ inserted.
+<inserted text> 
+                $
+l.252 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./hw1.tex:252: Missing } inserted.
+<inserted text> 
+                }
+l.252 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./hw1.tex:257: Missing { inserted.
+<to be read again> 
+                   \mathop 
+l.257 ...}{2}$. Therefore, we must compare $n^\log
+                                                  _4{2}$ with $n^\frac{1}{2}$.
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./hw1.tex:257: Missing } inserted.
+<inserted text> 
+                }
+l.257 ... Therefore, we must compare $n^\log_4{2}$
+                                                   with $n^\frac{1}{2}$.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./hw1.tex:259: Missing { inserted.
+<to be read again> 
+                   \mathop 
+l.259 ...2}$ is within a polylog factor of $n^\log
+                                                  _4{2}$, but is not smaller...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./hw1.tex:259: Missing } inserted.
+<inserted text> 
+                }
+l.259 ... within a polylog factor of $n^\log_4{2}$
+                                                  , but is not smaller. This...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./hw1.tex:261: LaTeX Error: \mathbf allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.261 ...we have \mathbf{$\Theta(\sqrt{n}\lg{n})$}
+                                                  .\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
-./hw1.tex:308: Missing } inserted.
+./hw1.tex:277: Missing } inserted.
 <inserted text> 
                 }
-l.308 \end{split}
+l.277 \end{split}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1471,24 +1430,24 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./hw1.tex:308: Missing { inserted.
+./hw1.tex:277: Missing { inserted.
 <inserted text> 
                 {
-l.308 \end{split}
+l.277 \end{split}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
 
  []
 
-./hw1.tex:321: Missing } inserted.
+./hw1.tex:291: Missing } inserted.
 <inserted text> 
                 }
-l.321 \end{split}
+l.291 \end{split}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1496,192 +1455,238 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./hw1.tex:321: Missing { inserted.
+./hw1.tex:291: Missing { inserted.
 <inserted text> 
                 {
-l.321 \end{split}
+l.291 \end{split}
                  
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
-
- []
+./hw1.tex:296: Missing } inserted.
+<inserted text> 
+                }
+l.296 \end{enumerate}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 [8]
-./hw1.tex:330: Missing number, treated as zero.
-<to be read again> 
-                   $
-l.330 ...ce*{6mm} (j)  $T(n) = \sqrt{n}$ \hspace $
-                                                  T(\sqrt{n}) + n$\\
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./hw1.tex:330: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   $
-l.330 ...ce*{6mm} (j)  $T(n) = \sqrt{n}$ \hspace $
-                                                  T(\sqrt{n}) + n$\\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 
  []
 
-./hw1.tex:347: Missing number, treated as zero.
-<to be read again> 
-                   T
-l.347 \end{split}
+./hw1.tex:318: Missing } inserted.
+<inserted text> 
+                }
+l.318 \end{split}
                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-./hw1.tex:347: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   T
-l.347 \end{split}
+./hw1.tex:318: Missing { inserted.
+<inserted text> 
+                {
+l.318 \end{split}
                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
 
-./hw1.tex:347: Missing number, treated as zero.
-<to be read again> 
-                   (
-l.347 \end{split}
+./hw1.tex:318: Missing } inserted.
+<inserted text> 
+                }
+l.318 \end{split}
                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-./hw1.tex:347: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   (
-l.347 \end{split}
+./hw1.tex:318: Missing { inserted.
+<inserted text> 
+                {
+l.318 \end{split}
                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
+./hw1.tex:355: Missing number, treated as zero.
+<to be read again> 
+                   $
+l.355 ...ce*{6mm} (j)  $T(n) = \sqrt{n}$ \hspace $
+                                                  T(\sqrt{n}) + n$\\
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./hw1.tex:355: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   $
+l.355 ...ce*{6mm} (j)  $T(n) = \sqrt{n}$ \hspace $
+                                                  T(\sqrt{n}) + n$\\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
 
  []
 
-./hw1.tex:377: Missing } inserted.
-<inserted text> 
-                }
-l.377 \end{split}
+./hw1.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   T
+l.372 \end{split}
                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-./hw1.tex:377: Undefined control sequence.
-\math@cr@@@ ...t@ {&\kern -\alignsep@ }\fi \next@ 
-                                                  \cr 
-l.377 \end{split}
+./hw1.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   T
+l.372 \end{split}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
-./hw1.tex:377: Missing { inserted.
-<inserted text> 
-                {
-l.377 \end{split}
+./hw1.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   (
+l.372 \end{split}
                  
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-./hw1.tex:386: Missing } inserted.
-<inserted text> 
-                }
-l.386 \end{split}
+./hw1.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   (
+l.372 \end{split}
                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./hw1.tex:386: Undefined control sequence.
-\math@cr@@@ ...t@ {&\kern -\alignsep@ }\fi \next@ 
-                                                  \cr 
-l.386 \end{split}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./hw1.tex:386: Missing { inserted.
-<inserted text> 
-                {
-l.386 \end{split}
-                 
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--390
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 393--394
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
+
+ []
+
+./hw1.tex:402: Missing } inserted.
+<inserted text> 
+                }
+l.402 \end{split}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./hw1.tex:402: Undefined control sequence.
+\math@cr@@@ ...t@ {&\kern -\alignsep@ }\fi \next@ 
+                                                  \cr 
+l.402 \end{split}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./hw1.tex:402: Missing { inserted.
+<inserted text> 
+                {
+l.402 \end{split}
+                 
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./hw1.tex:411: Missing } inserted.
+<inserted text> 
+                }
+l.411 \end{split}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./hw1.tex:411: Undefined control sequence.
+\math@cr@@@ ...t@ {&\kern -\alignsep@ }\fi \next@ 
+                                                  \cr 
+l.411 \end{split}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./hw1.tex:411: Missing { inserted.
+<inserted text> 
+                {
+l.411 \end{split}
+                 
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
 
  []
 
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 404.
+(amsmath)                 on input line 429.
 
-[11] (./hw1.aux) ) 
+[12] [13] (./hw1.aux) ) 
 Here is how much of TeX's memory you used:
  3550 strings out of 492649
  47509 string characters out of 6129622
@@ -1689,13 +1694,13 @@ Here is how much of TeX's memory you used:
  7360 multiletter control sequences out of 15000+600000
  19034 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,20n,27p,720b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/c
-m-super/sfrm1095.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on hw1.pdf (11 pages, 228843 bytes).
+ 41i,20n,27p,673b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
+lic/cm-super/sfrm1095.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on hw1.pdf (13 pages, 237137 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
+ 112 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

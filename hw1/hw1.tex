@@ -67,7 +67,7 @@ Then let us prove $E[X_A] =$Pr$\{A\}$. Using the definition of expected value fr
 \begin{split}
 E[X_A] &= E[I\{A\}]\\
        &= 1 * $Pr$\{A\} + 0 * $Pr$\{\bar{A}\}\\
-       &= $Pr$\{A\}
+       &= $ Pr$\{A\}
 \end{split}
 \end{equation}
 where, for the sample space $S$ that $A$ occupies, $\bar{A}$ denotes $S - A$, the compliment of $A$.\\
@@ -113,20 +113,23 @@ This function first creates an empty array $A$ at line 2, which is then used at 
 
 Once we've constructed $A$, we then ensure it is in sorted order by running merge sort at line 7 in $\Theta(n\lg{n})$ time. We sort $A$ to allow us to effectively search it using binary search.
 
-Next, we create an empty array $B$ at line 10 which will then be used to help determine if two elements exist in $S$ that sum to $x$ by holding each element of $A$ after we examine it.
+Next, we create an empty array $B$ at line 10 which will then be used to help determine if two elements exist in $S$ that sum to $x$. $B$ holds each element of $A$ after we examine it.
 
 Then, we iterate over $A$ at line 11. For each element, we know the value of the element we are currently iterating on. Let us define that element as $A[i]$. Since we know we are looking for two elements that sum to $x$, all we have to do is determine if the element $x - A[i]$ exists in $S$. We then define that element we are looking for as $check$ at line 12.
 
-Then, since $B$ holds all values from $A$ that we have previously iterated on, and $A$ is in sorted order, $B$ must be in sorted order as well. This allows us to perform binary search on the array $B$ to determine if $B$ contains $check$. We perform this search at line 13 in $\Theta(\lg{n})$ time. If $B$ contains $check$, then we must have previously iterated on $check$. This tells us that $A$ contains $check$, which means that $S$ contains $check$. Since $check + A[i] = x$, we then know two elements exist in $S$ that sum to $x$.
+Then, since $B$ holds all values from $A$ that we have previously iterated on, and $A$ is in sorted order, $B$ must be in sorted order as well. This allows us to perform binary search on the array $B$ to determine if $B$ contains $check$. We perform this search at line 13 in $\Theta(\lg{i})$ time. The run time is $\Theta(\lg{i})$ because $B$ contains $i$ elements on each iteration of the loop. A full analysis of the run-time of this algorithm is given below.
 
-In this case, we return True at line 14. After performing the search for $check$, we then add $A[i]$ to $B$ at line 15. This will then be used in the subsequent iteration of the for-loop to determine if two elements that sum to $x$ have been found.
+ Then, if $B$ contains $check$, we must have previously iterated on $check$. This tells us that $A$ contains $check$, which means that $S$ contains $check$. Since $check + A[i] = x$, we then know two elements exist in $S$ that sum to $x$. In this case, we return True at line 14.
+
+If we don't halt and return within the loop, then after performing the search for $check$, we add $A[i]$ to $B$ at line 15. This will then be used in the subsequent iteration of the for-loop to determine if two elements that sum to $x$ have been found.
 
 If we make it out of the for-loop without returning, then it never was the case that we found $check$ in $B$. This indicates no two elements exist in $A$ that sum to $x$ which means no two elements exist in $S$ that sum to $x$. In this case, we then return false at line 17.
 
-Let us now analyze the run-time of this algorithm. The initial creation of $A$ runs in $\Theta(n)$ time since we iterate over each value in $S$ which is of size n. The call to merge sort at line 7 runs in $\Theta(n\lg{n})$ time since $A$ is of size $n$. Lastly, for each element in $A$, we perform binary search on $B$ (which increases in size but ultimately is of size n). Since binary search runs in $\Theta(\lg{n})$ time, we have n runs of $\Theta(\lg{n})$ which is $\Theta(n\lg{n})$.
+Let us now analyze the run-time of this algorithm. The initial creation of $A$ runs in $\Theta(n)$ time since we iterate over each value in $S$ which is of size n. The call to merge sort at line 7 runs in $\Theta(n\lg{n})$ time since $A$ is of size $n$.
+
+Lastly, for each element in $A$, we perform binary search on $B$. Binary search runs in time $\Theta(\lg{i})$ for the ith iteration of the loop (of which there are a total $n$ iterations). Since the size of $B$ starts at 0, grows by 1 on each iteration, and ends at size $n-1$, each call to binary search will be no larger than $\Theta(\lg{n})$. Therefore, for $n$ calls to binary search, the run-time can be expressed as $\Theta(n\lg{n})$.
 
 Therefore, the run-time of this algorithm is $\Theta(n) + \Theta(n\lg{n}) + \Theta(n\lg{n}) = \Theta(n\lg{n})$.
-
 
 \newpage
 
@@ -151,7 +154,16 @@ Therefore, we have $\alpha n * (1 - 2\alpha)n = \alpha n^2(1 - 2\alpha) = \alpha
 \separateline
 What value of $\alpha$ maximizes the number of times that the $\alpha n$ largest values must pass through the middle $1 - 2\alpha$ array positions?
 
-$\alpha = \frac{1}{4}$ will require $n^2/8$ traversals through the middle $1 - 2\alpha$ array positions, which is the maximum number of movements possible. This is because we know we must split the first and third sections into equal sizes. In order to get a large number of traversals, we need both the size of the first section and the size of the middle section to be relatively balanced. Having a small first section and a large middle section will not create as many traversals, because the denominator will begin expanding faster than the numerator. $\alpha = \frac{1}{4}$ creates a middle section of size $\frac{n}{2}$ and a first section of size $\frac{n}{4}$. This yields a maximum $n^2/8$ traversals.
+$\alpha = \frac{1}{4}$ will require $n^2/8$ traversals through the middle $1 - 2\alpha$ array positions, which is the maximum number of movements possible. We can compute this value by computing the derivative of our $\alpha n^2 - 2\alpha^2 n^2$ moves, setting it equal to 0, and solving for $\alpha$.\\
+
+$ \frac{d}{dn} \Big( \alpha n - 2 \alpha^2 n^2 \Big) = \alpha - 4 \alpha^2 n$\\\\
+$\alpha - 4 \alpha^2 n = 0$\\
+$\alpha = 4 \alpha^2n$\\\\
+$1 = 4 \alpha n$\\\\
+$\alpha n = \frac{1}{4}$\\
+
+Therefore, $\alpha = \frac{1}{4}$ maximizes the number of times that the $\alpha n$ largest values must pass through the middle $1 - 2\alpha$ array positions.
+
 
 \newpage
 
@@ -251,7 +263,6 @@ Therefore, we have \mathbf{$\Theta(\sqrt{n}\lg{n})$}.\\
 
 \item $T(n) = T(n - 2) + n^2$
 
-
 We cannot use the master method here. Therefore, let us guess that $T(n) = \Theta(n^3)$ and use the substitution method to prove. We begin by proving $T(n) = O(n^3)$.
 
 Guess: $T(n) \leq cn^3$ for some constant $c$ that we define.
@@ -260,13 +271,13 @@ Guess: $T(n) \leq cn^3$ for some constant $c$ that we define.
 \begin{split}
 T(n) &\leq T(n-2) + n^2\\
      &= c(n-2)^3 + n^2\\
-     &= c(n^3 - 4n^2 + 8n - 8) + n^2\\
-     &= cn^3 - 4cn^2 + 8cn - 8c + n^2\\
-     &\leq cn^3 \hspace*{6mm} $if$ \hspace*{2mm} (-4cn^2 + 8cn - 8c + n^2) \leq 0
+     &= c(n^3 - 6n^2 + 12n - 8) + n^2\\
+     &= cn^3 - 6cn^2 + 12cn - 8c + n^2\\
+     &\leq cn^3 \hspace*{6mm} $if$ \hspace*{2mm} (-6cn^2 + 12cn - 8c + n^2) \leq 0
 \end{split}
 \end{equation}
 
-Therefore, $T(n) = O(n^3)$. Let us now prove $T(n) = \Omega(n^3)$.\\
+This condition is true so long as $c > \frac{1}{6}$. Therefore, $T(n) = O(n^3)$. Let us now prove $T(n) = \Omega(n^3)$.\\
 
 Guess: $T(n) \geq cn^3$ for some constant $c$ that we define.
 \hspace*{3mm}
@@ -274,16 +285,13 @@ Guess: $T(n) \geq cn^3$ for some constant $c$ that we define.
 \begin{split}
 T(n) &\geq T(n-2) + n^2\\
      &= c(n-2)^3 + n^2\\
-     &= c(n^3 - 4n^2 + 8n - 8) + n^2\\
-     &= cn^3 - 4cn^2 + 8cn - 8c + n^2\\
-     &\geq cn^3 \hspace*{6mm} $if$ \hspace*{2mm} (-4cn^2 + 8cn - 8c + n^2) \geq 0
+     &= c(n^3 - 6n^2 + 12n - 8) + n^2\\
+     &= cn^3 - 6cn^2 + 12cn - 8c + n^2\\
+     &\geq cn^3 \hspace*{6mm} $if$ \hspace*{2mm} (-6cn^2 + 12cn - 8c + n^2) \geq 0
 \end{split}
 \end{equation}
 
-Therefore, $T(n) = \Omega(n^3)$.\\
-
-Since we have shown $T(n) = O(n^3) = \Omega(n^3)$, $T(n) = \Theta(n^3)$.
-
+This condition is true so long as $0 < c \leq \frac{1}{6}$. Therefore, $T(n) = \Omega(n^3)$. Since we have shown $T(n) = O(n^3) = \Omega(n^3)$, $T(n) = \Theta(n^3)$.
 
 \end{enumerate}
 
@@ -295,35 +303,52 @@ Problem 4-3, parts g and j. Don’t worry about base cases.
 
 \hspace*{6mm} (g)  $T(n) = T(n - 1) + \frac{1}{n}$\\
 
-We cannot use the master method here. Therefore, let us guess that $T(n) = \Theta(\lg{n})$ and use the substitution method to prove. We begin by proving $T(n) = O(\lg{n})$.
+This problem is clearly an example of a Harmonic Series. The Harmonic Series $H_n$ is defined as $\sum_{k=1}^n{\frac{1}{k}}$ and is bounded by $\ln{n} \leq H_n \leq \ln{n} + 1$, indicating $H_n = H(n) = \Theta(\lg{n})$.
 
-Guess: $T(n) \leq c\lg{n}$ for some constant $c$ that we define.
-\hspace*{3mm}
+Let us therefore guess $T(n) = H(n)$ and use a substitution proof to show $T(n) = \Theta(\lg{n})$.
+
+\textbf{Base Case:} Let $n=1$.
+\hspace*{-6mm}
 \begin{equation}
 \begin{split}
-T(n) &\leq T(n-1) + \frac{1}{n}\\
-     &= c\lg(n-1) + \frac{1}{n}\\
-     &= c\lg{n} - c\lg(1 - \frac{1}{n}) + \frac{1}{n}\\
-     &\leq c\lg{n} \hspace*{6mm} $if$ \hspace*{2mm} (c\lg(1 - \frac{1}{n}) + \frac{1}{n}) \leq 0
+$Then, $ T(1) &= T(0) + \frac{1}{1}\\
+           &= 0 + 1\\
+           &= 1\\
+$And, $  H(1) &= \frac{1}{1} = 1
 \end{split}
 \end{equation}
 
-Therefore, $T(n) = O(\lg{n})$. Let us now prove $T(n) = \Omega(\lg{n})$.\\
+Therefore, $T(1) = H(1)$.\\
 
-Guess: $T(n) \geq c\lg{n}$ for some constant $c$ that we define.
-\hspace*{3mm}
+\textbf{Inductive Step:} Let $n \geq 1$. Induction Hypothesis: $T(n-1) = H(n-1)$.
+\hspace*{-6mm}
 \begin{equation}
 \begin{split}
-T(n) &\geq T(n-1) + \frac{1}{n}\\
-     &= c\lg(n-1) + \frac{1}{n}\\
-     &= c\lg{n} - c\lg(1 - \frac{1}{n}) + \frac{1}{n}\\
-     &\geq c\lg{n} \hspace*{6mm} $if$ \hspace*{2mm} (c\lg(1 - \frac{1}{n}) + \frac{1}{n}) \geq 0
+T(n) &= T(n-1) + \frac{1}{n}\\
+     &= H(n-1) + \frac{1}{n}
 \end{split}
 \end{equation}
 
-Therefore, $T(n) = \Omega(\lg{n})$.\\
+By the definition of the Harmonic Series, we then have
+\hspace*{-6mm}
+\begin{equation}
+\begin{split}
+H(n -1) + \frac{1}{n} &= \sum_{k=1}^{n-1}{\frac{1}{k}} + \frac{1}{n}\\
+                      &= \sum_{k=1}^{n}{\frac{1}{k}}\\
+                      &= H(n)
+\end{split}
+\end{equation}
 
-Since we have shown $T(n) = O(\lg{n}) = \Omega(\lg{n})$, $T(n) = \Theta(\lg{n})$.\\\\
+Finishing the inductive step we have
+\hspace*{-6mm}
+\begin{equation}
+\begin{split}
+T(n) &= H(n-1) + \frac{1}{n}\\
+     &= H(n)
+\end{split}
+\end{equation}
+
+Therefore, $T(n) = H(n)$. Since $H(n) = \Theta(\lg{n})$, $T(n) = \Theta(\lg{n})$.
 
 \newpage
 
@@ -405,5 +430,15 @@ E[X] &= E\Big[\sum\limits_{i = 1}^{n-1}{\sum\limits_{j = i + 1}^{n}{X_{ij}}}\Big
 \end{equation}
 
 Therefore, the expected number of inversions is $\frac{n(n - 1)}{4}$.
+
+\newpage
+
+\section{Who I Worked With}
+
+\textbf{Problem 1-4:} I received help from Emma Rafkin with basic clarification of the wording of the problem.
+
+\textbf{Problem 1-5 (g):} I worked with Kunal Rathi and Emma Rafkin. Emma, Kunal, and I all worked on setting the bounds on $c$ for the substitution proof.
+
+\textbf{Problem 1-6 (g):} I worked with Kunal Rathi and Emma Rafkin. Emma, Kunal, and I all worked on determining how to solve the induction proof for the Harmonic Series. We received help from Professor Cormen in office hours on setting the induction hypothesis.
 
 \end{document}
