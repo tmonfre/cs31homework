@@ -303,7 +303,7 @@ Problem 4-3, parts g and j. Don’t worry about base cases.
 
 \hspace*{6mm} (g)  $T(n) = T(n - 1) + \frac{1}{n}$\\
 
-This problem is clearly an example of a Harmonic Series. The Harmonic Series $H_n$ is defined as $\sum_{k=1}^n{\frac{1}{k}}$ and is bounded by $\ln{n} \leq H_n \leq \ln{n} + 1$, indicating $H_n = H(n) = \Theta(\lg{n})$.
+This problem is an example of a harmonic series. The harmonic series $H_n$ is defined as $\sum_{k=1}^n{\frac{1}{k}}$ and is bounded by $\ln{n} \leq H_n \leq \ln{n} + 1$, indicating $H_n = \Theta(\lg{n})$. Let us denote $H_n$ as $H(n)$.
 
 Let us therefore guess $T(n) = H(n)$ and use a substitution proof to show $T(n) = \Theta(\lg{n})$.
 
@@ -418,7 +418,7 @@ Then, letting $X$ be the random variable that counts the total number inversions
 $X = \sum\limits_{i = 1}^{n-1}{\sum\limits_{j = i + 1}^{n}{X_{ij}}}$\\
 
 Applying linearity of expectation, we get:
-
+\hspace*{-6mm}
 \begin{equation}
 \begin{split}
 E[X] &= E\Big[\sum\limits_{i = 1}^{n-1}{\sum\limits_{j = i + 1}^{n}{X_{ij}}}\Big]\\
@@ -435,7 +435,7 @@ Therefore, the expected number of inversions is $\frac{n(n - 1)}{4}$.
 
 \section{Who I Worked With}
 
-\textbf{Problem 1-4:} I received help from Emma Rafkin with basic clarification of the wording of the problem.
+\textbf{Problem 1-4:} I worked with Emma Rafkin on solving for the largest k.
 
 \textbf{Problem 1-5 (g):} I worked with Kunal Rathi and Emma Rafkin. Emma, Kunal, and I all worked on setting the bounds on $c$ for the substitution proof.
 
