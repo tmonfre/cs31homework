@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1548995465 "hw3.tex" "hw3.pdf" "hw3" 1548995466
+["pdflatex"] 1548995651 "hw3.tex" "hw3.pdf" "hw3" 1548995651
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1480098666 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1480098666 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -97,7 +97,7 @@
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1523934516 4220280 10cab8fbd7c5a7c52aba9917e190d018 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
   "clrscode3e.sty" 1548443184 14701 6e560446162ef12e061f676ca6e49c94 ""
-  "hw3.aux" 1548995466 527 4112409d86ab6ff7c9f986de85d4bc78 ""
+  "hw3.aux" 1548995651 527 4112409d86ab6ff7c9f986de85d4bc78 ""
   "hw3.tex" 1548972312 55040 07d8ff074b413b8314289ba949650891 ""
   "page.tex" 1548443184 490 3fd9a1f678fca422cac90de7467114db ""
   (generated)
